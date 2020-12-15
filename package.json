@@ -1,7 +1,7 @@
 {
-  "name": "figma-plugin-name",
+  "name": "figma-layer-counter",
   "version": "1.0.0",
-  "description": "Figma Plugin Description",
+  "description": "A Figma plugin that provides the ability to easily count layers in a selection",
   "scripts": {
     "build": "webpack",
     "watch": "nodemon --watch ./src --ext ts --exec npm run build"
