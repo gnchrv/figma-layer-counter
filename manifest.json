@@ -2,5 +2,6 @@
     "name": "Count Layers",
     "id": "900867721222656652",
     "api": "1.0.0",
+    "editorType": ["figma", "figjam"],
     "main": "dist/index.js"
 }
