@@ -1,7 +1,7 @@
 # Layer Counter
 ![Plugin's UI](cover.png)
 
-This is a simple Figma plugin that counts layers inside a selection and presents the result in a standard Figma toast in the bottom of the screen. The plugin also specifies how many layers are hidden and how many layers are selected directly (so-called top-level elements).
+This is a simple Figma (and FigJam!) plugin that counts layers inside a selection and presents the result in a standard Figma toast in the bottom of the screen. The plugin also specifies how many layers are hidden and how many layers are selected directly (so-called top-level elements).
 
 Another potentially useful feature of this plugin is that it logs to the console how many layers of different kinds are presented in the selection. In practise, it looks something like this (see the `types` property):
 
