@@ -1,4 +1,5 @@
-# Layer Counter
+# Layer Counter ![installs](https://img.shields.io/endpoint?url=https://yuanqing.github.io/figma-plugins-stats/plugin/900867721222656652/installs.json) ![likes](https://img.shields.io/endpoint?url=https://yuanqing.github.io/figma-plugins-stats/plugin/900867721222656652/likes.json)
+
 ![Plugin's UI](cover.png)
 
 This is a simple Figma (and FigJam!) plugin that counts layers inside a selection and presents the result in a standard Figma toast in the bottom of the screen. The plugin also specifies how many layers are hidden and how many layers are selected directly (so-called top-level elements).
