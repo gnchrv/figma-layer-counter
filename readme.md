@@ -1,4 +1,4 @@
-# Layer Counter ![installs](https://img.shields.io/endpoint?url=https://yuanqing.github.io/figma-plugins-stats/plugin/900867721222656652/installs.json) ![likes](https://img.shields.io/endpoint?url=https://yuanqing.github.io/figma-plugins-stats/plugin/900867721222656652/likes.json)
+# Layer Counter
 
 ![Plugin's UI](cover.png)
 
