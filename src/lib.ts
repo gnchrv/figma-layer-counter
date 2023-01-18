@@ -39,7 +39,7 @@ export function countLayers(nodes: SceneNode[]): Counter {
         // Determine the type of the current node and increase the count for the corresponding type
         const { type } = node
 
-        result.types[type] = !result.types[type] ? 1 : ++result.types[type]
+        result.types![type] = !result.types![type] ? 1 : ++result.types![type]
 
         // If a node supports children, call this function on all its child nodes
         if (supportsChildren(node)) {
@@ -55,9 +55,9 @@ export function countLayers(nodes: SceneNode[]): Counter {
 
             // Merge the type prop of the children nodes with the existing one
             for (const type in types) {
-                const current = result.types[type]
+                const current = result.types![type]
                 const additional = types[type]
-                result.types[type] = !current ? additional : current + additional
+                result.types![type] = !current ? additional : current + additional
             }
         }
     }
