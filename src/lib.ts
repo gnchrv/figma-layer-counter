@@ -1,10 +1,4 @@
-// Export the type of the counting function
-export interface Counter {
-    total: number,
-    hidden: number,
-    topLevel?: number,
-    types?: Record<string, number>
-}
+import { Counter } from './counter'
 
 /** Checks if a node can have child nodes
  * @param {SceneNode} node a node in question

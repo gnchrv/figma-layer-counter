@@ -1,5 +1,6 @@
 // Import the library
-import { Counter, countLayers } from './lib'
+import { countLayers } from './lib'
+import { Counter } from './counter'
 
 // Get the selected layers
 let { selection } = figma.currentPage
