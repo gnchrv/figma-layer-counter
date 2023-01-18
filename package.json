@@ -1,16 +1,16 @@
 {
-  "name": "figma-layer-counter",
-  "version": "1.0.0",
-  "type": "module",
-  "description": "A Figma plugin that provides the ability to easily count layers in a selection",
-  "scripts": {
-    "dev": "node esbuild watch",
-    "build":  "tsc; node esbuild build"
-  },
-  "devDependencies": {
-    "@figma/plugin-typings": "^1.57.1",
-    "esbuild": "^0.17.3",
-    "ts-loader": "^9.4.2",
-    "typescript": "^4.9.4"
-  }
+    "name": "figma-layer-counter",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "A Figma plugin that provides the ability to easily count layers in a selection",
+    "scripts": {
+        "dev": "node esbuild watch",
+        "build": "tsc; node esbuild build"
+    },
+    "devDependencies": {
+        "@figma/plugin-typings": "^1.57.1",
+        "esbuild": "^0.17.3",
+        "ts-loader": "^9.4.2",
+        "typescript": "^4.9.4"
+    }
 }
