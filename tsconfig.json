@@ -6,6 +6,9 @@
         "typeRoots": [
             "./node_modules/@types",
             "./node_modules/@figma"
-        ]
+        ],
+
+        // Skip checking type libraries because of this issue: https://github.com/figma/plugin-typings/issues/90
+        "skipLibCheck": true,
     }
 }
