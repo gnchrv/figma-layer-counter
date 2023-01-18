@@ -1,16 +1,16 @@
 // Import the library
 import { Counter, countLayers } from './lib'
 
-// Get the layers selected
+// Get the selected layers
 let { selection } = figma.currentPage
 
-// If nothing is selected consider all the nodes presented on the page to be selected
+// If nothing is selected, consider all the nodes presented on the page as selected
 if (!selection.length) selection = figma.currentPage.children
 
-// Count selected layers
+// Count the selected layers
 const result: Counter = countLayers(selection as SceneNode[])
 
-// Log the full result to a console
+// Log the full result to the console
 console.log(result)
 
 // Compose the result message from the data received
