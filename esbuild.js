@@ -25,7 +25,7 @@ const configs = {
     // The default one. Builds right away
     'build': () => esbuild.build(options),
 
-    // The watching one. Set the context first and starts the watchg process later
+    // The watching one. Sets the context and starts the watching process
     'watch': () => esbuild.context(options).then(r => r.watch())
 }
 
