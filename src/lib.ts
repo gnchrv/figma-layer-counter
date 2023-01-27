@@ -1,17 +1,5 @@
 import { Counter } from './counter'
 
-/** Checks if a node can have child nodes
- * @param {SceneNode} node a node in question
- */
-export function supportsChildren(node: SceneNode):
-    node is FrameNode | GroupNode | ComponentNode | InstanceNode | BooleanOperationNode {
-    return node.type === 'FRAME' ||
-        node.type === 'GROUP' ||
-        node.type === 'COMPONENT' ||
-        node.type === 'INSTANCE' ||
-        node.type === 'BOOLEAN_OPERATION'
-}
-
 /** Counts layers taking their types into account
  * @param {SceneNode[]} nodes array of nodes to count
  */
@@ -36,7 +24,7 @@ export function countLayers(nodes: SceneNode[]): Counter {
         result.types![type] = !result.types![type] ? 1 : ++result.types![type]
 
         // If a node supports children, call this function on all its child nodes
-        if (supportsChildren(node)) {
+        if ('children' in node) {
             // Cast a readonly type of SceneNode[] to a full-fledged SceneNode[]
             const children = node.children as SceneNode[]
 
